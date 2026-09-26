@@ -300,7 +300,7 @@ export default function Home() {
 
             {/* CLG */}
             <div className=" bg-[#f4f4f4] dark:bg-[#000000] shadow-[0px_0px_10px_#cdcdcd] dark:shadow-[0px_1px_20px_#bcbcbc33] p-5 max-[510px]:p-2 rounded-2xl flex z-1">
-              <div className="EDULOGO w-fit h-fit p-2 rounded-2xl bg-[#e1e1e9] dark:bg-[#2e2e2e]">
+              <div className="EDULOGO w-fit h-fit p-2 rounded-2xl bg-[#e1e1e9] dark:bg-[#2e2e2e] shrink-0">
                 <img src="wordpress.webp" alt="" className="size-10 max-[510px]:size-7" />
               </div>
               <div className="EDUCATION flex flex-col w-full py-1 px-2 rounded-2xl gap-3">
@@ -372,7 +372,7 @@ export default function Home() {
 
             {/* CLG */}
             <div className=" bg-[#f4f4f4] dark:bg-[#000000] shadow-[0px_0px_10px_#cdcdcd] dark:shadow-[0px_1px_20px_#bcbcbc33] p-5 max-[510px]:p-2 rounded-2xl flex z-1">
-              <div className="EDULOGO w-fit h-fit bg-gradient-to-r  from-[#FD1D1D] from-[7%] to-[#FF05FB] p-2 rounded-2xl">
+              <div className="EDULOGO w-fit h-fit bg-gradient-to-r shrink-0  from-[#FD1D1D] from-[7%] to-[#FF05FB] p-2 rounded-2xl">
                 <img src="education.png" alt="" className="size-10 max-[510px]:size-7" />
               </div>
               <div className="EDUCATION flex flex-col w-full py-1 px-2 rounded-2xl gap-3">
@@ -435,7 +435,7 @@ export default function Home() {
 
             {/* 12th */}
             <div className=" bg-[#f4f4f4] dark:bg-[#000000] shadow-[0px_0px_10px_#cdcdcd] dark:shadow-[0px_1px_20px_#bcbcbc33] p-5 max-[510px]:p-2 rounded-2xl flex z-1">
-              <div className="EDULOGO w-fit h-fit bg-[linear-gradient(75deg,rgba(250,90,90,1)_0%,rgba(253,187,45,1)_100%)] p-2 rounded-2xl">
+              <div className="EDULOGO w-fit h-fit shrink-0 bg-[linear-gradient(75deg,rgba(250,90,90,1)_0%,rgba(253,187,45,1)_100%)] p-2 rounded-2xl">
                 <img src="education.png" alt="" className="size-10 max-[510px]:size-7" />
               </div>
               <div className="EDUCATION flex flex-col w-full py-1 px-2 rounded-2xl gap-3">
