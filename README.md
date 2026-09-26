@@ -4,7 +4,7 @@ A responsive personal developer portfolio built with **Next.js, JavaScript, Reac
 
 ## Live Demo
 
-**Portfolio:** YOUR_PORTFOLIO_URL
+**Portfolio:** (https://yashsharma-portfolio.netlify.app/)
 
 ## Screenshots
 
