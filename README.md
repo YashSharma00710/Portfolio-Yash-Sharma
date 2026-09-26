@@ -10,19 +10,7 @@ A responsive personal developer portfolio built with **Next.js, JavaScript, Reac
 
 ### Home
 
-![Portfolio Home](./screenshots/home.png)
-
-### About & Skills
-
-![About and Skills](./screenshots/about.png)
-
-### Education & Certifications
-
-![Education and Certifications](./screenshots/education.png)
-
-### Mobile View
-
-![Mobile View](./screenshots/mobile.png)
+![Portfolio Home](./public/ss.png)
 
 ## Features
 
