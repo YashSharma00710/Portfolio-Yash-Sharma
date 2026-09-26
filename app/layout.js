@@ -1,15 +1,21 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { Jura } from "next/font/google";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import ModeChecking from "@/components/DarkMode";
+import Scroll from "@/components/Scroll";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const jura = Jura({
+  variable: "--font-jura",
   subsets: ["latin"],
-});
+})
+
 
 export const metadata = {
   title: "Create Next App",
@@ -17,12 +23,22 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${jura.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <ModeChecking />
+      <body className="min-h-screen flex flex-col bg-white text-black dark:bg-black dark:text-white font-jura">
+        <main className="bg-[#ededed] dark:bg-[#000000] flex-1 w-full relative">
+          <Scroll>
+            <Navbar />
+            {children}
+            <Footer />
+          </Scroll>
+        </main>
+      </body>
     </html>
   );
 }

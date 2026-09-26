@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -10,17 +12,121 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-jura: var(--font-jura);
+
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
-body {
+/* body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-jura)
+} */
+
+* {
+  box-sizing: border-box;
+}
+
+.INLINE {
+  padding-inline: 40px;
+}
+
+.MINLINE {
+  margin-inline: 40px;
+}
+
+.NAVBAR-INLINE {
+  padding-inline: 30px;
+  padding-block: 12px;
+}
+
+
+
+
+.MOVING1 img {
+  transition: all 0.3s cubic-bezier(0.59, -0.13, 0.3, 1.05);
+}
+
+.MOVING1:hover img {
+  scale: 1.2;
+
+}
+
+.BIGMOVING {
+  animation: slide 15s linear infinite;
+}
+
+.BIGMOVING:hover {
+  animation-play-state: paused;
+}
+
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.SECTION-PX {
+  padding-inline: 48px;
+}
+
+.SECTION-PY {
+  padding-block: 80px;
+}
+
+.MAIN-HEADING {
+  font-size: 30px;
+}
+
+.SUB-HEADING {
+  font-size: 20px;
+}
+
+@media (max-width: 880px) {
+  .SECTION-PX {
+    padding-inline: 28px;
+  }
+
+  .SECTION-PY {
+    padding-block: 40px;
+  }
+}
+
+@media (max-width: 770px) {
+  .SUB-HEADING {
+    font-size: 16px;
+  }
+
+  .MAIN-HEADING {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 510px) {
+  .SECTION-PX {
+    padding-inline: 10px;
+  }
+
+  .SECTION-PY {
+    padding-block: 30px;
+  }
+
+  .SUB-HEADING {
+    font-size: 14px;
+  }
+
+  .MAIN-HEADING {
+    font-size: 22px;
+  }
 }
