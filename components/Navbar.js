@@ -102,7 +102,7 @@ const Navbar = () => {
         });
         setmenu(false)
     }
-    
+
     const handleScroll6 = () => {
         contactRef.current.scrollIntoView({
             behavior: "auto"
@@ -155,11 +155,11 @@ const Navbar = () => {
                 <div className="UPPERNAV flex justify-between w-full">
 
                     {/* LOGO */}
-                    <div className='LOGO flex items-center font-extrabold MAIN-HEADING cursor-pointer' onClick={() => router.push("/")}>
-                        <span className='bg-[linear-gradient(90deg,rgba(131,58,180,1)_0%,rgba(255,3,74,1)_0%,rgba(253,29,29,1)_31%,rgba(138,5,255,1)_100%)] bg-clip-text text-transparent'>
-                            {`<`}Yash{`/>`}
-                        </span>
-                    </div>
+                        <div className='LOGO flex items-center font-extrabold MAIN-HEADING cursor-pointer' onClick={handleScroll1}>
+                            <span className='bg-[linear-gradient(90deg,rgba(131,58,180,1)_0%,rgba(255,3,74,1)_0%,rgba(253,29,29,1)_31%,rgba(138,5,255,1)_100%)] bg-clip-text text-transparent'>
+                                {`<`}Yash{`/>`}
+                            </span>
+                        </div>
 
 
 
