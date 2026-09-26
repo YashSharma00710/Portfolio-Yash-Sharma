@@ -106,7 +106,7 @@ export default function Home() {
 
   return (
     <>
-      <section className=" w-full flex flex-col gap-10 max-w-7xl px-10 max-[550px]:px-5 mx-auto max-[510px]:px-2">
+      <section className="w-full flex flex-col gap-10 max-w-7xl px-10 max-[550px]:px-5 mx-auto max-[510px]:px-2">
         <ToastContainer
           position="top-right"
           autoClose={2000}
@@ -122,7 +122,7 @@ export default function Home() {
         />
         {/* HOME */}
         <div ref={homeRef} className={`STARTINGSECTION relative w-full h-157 justify-center items-start flex flex-col 
-          dark:shadow-[0px_1px_20px_#b0b0b033] max-[750px]:flex-colgba(255,255,255,0.2)] rounded-2xl shadow-[0px_0px_40px_rgba(10,10,10,0.08)] overflow-hidden mt-[72px] max-[550px]:mt-[42px]`}>
+          dark:shadow-[0px_1px_20px_#b0b0b033] max-[750px]:flex-colgba(255,255,255,0.2)] rounded-2xl shadow-[0px_0px_40px_rgba(10,10,10,0.08)] overflow-hidden mt-[30px] max-[550px]:mt-[10px] max-[950px]:mt-[25px]`}>
           <img src="/Main_pic.png" alt="" className="w-full h-full object-cover max-[510px]:object-[80%_20%] pointer-events-none absolute" />
 
           <div className="INFO relative pl-[5%] max-[880px]:pl-[2.5%]  flex flex-col text-white w-[60%] gap-6  max-[510px]:px-1 max-[510px]:w-full">

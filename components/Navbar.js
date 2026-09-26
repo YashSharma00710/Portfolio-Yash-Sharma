@@ -74,30 +74,35 @@ const Navbar = () => {
         });
         setmenu(false)
     }
+
     const handleScroll2 = () => {
         aboutRef.current.scrollIntoView({
             behavior: "auto"
         });
         setmenu(false)
     }
+
     const handleScroll3 = () => {
         skillRef.current.scrollIntoView({
             behavior: "auto"
         });
         setmenu(false)
     }
+
     const handleScroll4 = () => {
         educationRef.current.scrollIntoView({
             behavior: "auto"
         });
         setmenu(false)
     }
+
     const handleScroll5 = () => {
         certificateRef.current.scrollIntoView({
             behavior: "auto"
         });
         setmenu(false)
     }
+    
     const handleScroll6 = () => {
         contactRef.current.scrollIntoView({
             behavior: "auto"
