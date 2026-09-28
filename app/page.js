@@ -122,7 +122,7 @@ export default function Home() {
         />
         {/* HOME */}
         <div ref={homeRef} className={`STARTINGSECTION relative w-full h-157 justify-center items-start flex flex-col 
-          dark:shadow-[0px_1px_20px_#ffffff38] max-[750px]:flex-colgba(255,255,255,0.2)] rounded-2xl shadow-[0px_0px_40px_rgba(10,10,10,0.08)] overflow-hidden mt-[30px] max-[550px]:mt-[10px] max-[950px]:mt-[25px]`}>
+          dark:shadow-[0px_1px_20px_#505050] max-[750px]:flex-colgba(255,255,255,0.2)] rounded-2xl shadow-[0px_0px_40px_rgba(10,10,10,0.08)] overflow-hidden mt-[30px] max-[550px]:mt-[10px] max-[950px]:mt-[25px]`}>
           <img src="/Main_pic.png" alt="" className="w-full h-full object-cover max-[510px]:object-[80%_20%] pointer-events-none absolute" />
 
           <div className="INFO relative pl-[5%] max-[880px]:pl-[2.5%]  flex flex-col text-white w-[60%] gap-6  max-[510px]:px-1 max-[510px]:w-full">
@@ -163,10 +163,10 @@ export default function Home() {
 
 
         {/* ABOUT */}
-        <div ref={aboutRef} className={`2SECTION relative w-full gap-8 rounded-2xl justify-center items-center flex flex-col dark:shadow-[0px_1px_20px_#ffffff38] shadow-[0px_0px_40px_rgba(10,10,10,0.08)] SECTION-PX SECTION-PY bg-white dark:bg-[#000000]`}>
+        <div ref={aboutRef} className={`2SECTION relative w-full gap-8 rounded-2xl justify-center items-center flex flex-col dark:shadow-[0px_1px_20px_#505050] shadow-[0px_0px_40px_rgba(10,10,10,0.08)] SECTION-PX SECTION-PY bg-white dark:bg-[#000000]`}>
 
           <div className="2HEADING flex items-center flex-col gap-3">
-            <div className="border-2 border-[#ff002d21] bg-[#191919] p-1 rounded-xl flex justify-center items-center gap-2 text-sm">
+            <div className="border-2 border-[#ff002d21] bg-[#ff002d21] dark:bg-[#dadada21] p-1 rounded-xl flex justify-center items-center gap-2 text-sm">
               <span><img src="/verified.png" alt="" className="size-6" /></span>
               <span>Get To Know Me</span>
             </div>
@@ -200,9 +200,9 @@ export default function Home() {
 
 
         {/* SKILLS */}
-        <div ref={skillRef} className={`3SECTION relative w-full gap-8 rounded-2xl justify-center items-center flex flex-col dark:shadow-[0px_1px_20px_#ffffff38] shadow-[0px_0px_40px_rgba(10,10,10,0.08)] SECTION-PX SECTION-PY bg-white dark:bg-[#000000]`}>
+        <div ref={skillRef} className={`3SECTION relative w-full gap-8 rounded-2xl justify-center items-center flex flex-col dark:shadow-[0px_1px_20px_#505050] shadow-[0px_0px_40px_rgba(10,10,10,0.08)] SECTION-PX SECTION-PY bg-white dark:bg-[#000000]`}>
           <div className="3HEADING flex items-center flex-col gap-3 ">
-            <div className="border-2 border-[#ff002d21] bg-[#191919] p-1 rounded-xl flex justify-center items-center gap-2 text-sm">
+            <div className="border-2 border-[#ff002d21] bg-[#ff002d21] dark:bg-[#dadada21] p-1 rounded-xl flex justify-center items-center gap-2 text-sm">
               <img src="/pencil.png" alt="" className="size-6" />
               <span>Technical Arsenal</span>
             </div>
@@ -286,9 +286,9 @@ export default function Home() {
 
 
         {/* EXPERIENCE */}
-        <div ref={experienceRef} className={`3SECTION relative w-full gap-8 rounded-2xl justify-center items-center flex flex-col dark:shadow-[0px_1px_20px_#ffffff38] shadow-[0px_0px_40px_rgba(10,10,10,0.08)] SECTION-PX SECTION-PY bg-white dark:bg-[#000000]`}>
+        <div ref={experienceRef} className={`3SECTION relative w-full gap-8 rounded-2xl justify-center items-center flex flex-col dark:shadow-[0px_1px_20px_#505050] shadow-[0px_0px_40px_rgba(10,10,10,0.08)] SECTION-PX SECTION-PY bg-white dark:bg-[#000000]`}>
           <div className="4HEADING flex items-center flex-col gap-3">
-            <div className="border-2 border-[#ff002d21] bg-[#191919] p-1 rounded-xl flex justify-center items-center gap-2 text-sm">
+            <div className="border-2 border-[#ff002d21] bg-[#ff002d21] dark:bg-[#dadada21] p-1 rounded-xl flex justify-center items-center gap-2 text-sm">
               <span><img src="/work.png" alt="" className="size-6" /></span>
               <span>Career Journey</span>
             </div>
@@ -316,7 +316,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="BACK flex flex-col gap-3 items-end justify-center  max-[750px]:flex-row">
-                    <span className="UP flex items-center gap-2 text-[13px] border border-[#ff002d21] bg-[#191919] py-1 px-2 rounded-2xl">
+                    <span className="UP flex items-center gap-2 text-[13px] border border-[#ff002d21] bg-[#ff002d21] dark:bg-[#dadada21] py-1 px-2 rounded-2xl">
                       <img src="calendar.png" alt="" className="size-4 dark:invert" />
                       July 2025 — Oct 2025
                     </span>
@@ -356,10 +356,10 @@ export default function Home() {
 
 
         {/* EDUCATION */}
-        <div ref={educationRef} className={`4SECTION relative w-full gap-8 rounded-2xl justify-center items-center flex flex-col  dark:shadow-[0px_1px_20px_#ffffff38] shadow-[0px_0px_40px_rgba(10,10,10,0.08)] SECTION-PX SECTION-PY bg-white dark:bg-[#000000]`}>
+        <div ref={educationRef} className={`4SECTION relative w-full gap-8 rounded-2xl justify-center items-center flex flex-col  dark:shadow-[0px_1px_20px_#505050] shadow-[0px_0px_40px_rgba(10,10,10,0.08)] SECTION-PX SECTION-PY bg-white dark:bg-[#000000]`}>
 
           <div className="4HEADING flex items-center flex-col gap-3">
-            <div className="border-2 border-[#ff002d21] bg-[#191919] p-1 rounded-xl flex justify-center items-center gap-2 text-sm">
+            <div className="border-2 border-[#ff002d21] bg-[#ff002d21] dark:bg-[#dadada21] p-1 rounded-xl flex justify-center items-center gap-2 text-sm">
               <span><img src="/light-bulb.png" alt="" className="size-6" /></span>
               <span>Academic Journey</span>
             </div>
@@ -388,7 +388,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="BACK flex flex-col gap-3 items-end justify-center  max-[750px]:flex-row">
-                    <span className="UP flex items-center gap-2 text-[13px] border border-[#ff002d21] bg-[#191919] py-1 px-2 rounded-2xl">
+                    <span className="UP flex items-center gap-2 text-[13px] border border-[#ff002d21] bg-[#ff002d21] dark:bg-[#dadada21] py-1 px-2 rounded-2xl">
                       <img src="calendar.png" alt="" className="size-4 dark:invert" />
                       2023-2026
                     </span>
@@ -451,7 +451,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="BACK flex flex-col gap-3 items-end justify-center  max-[750px]:flex-row shrink-0">
-                    <span className="UP flex items-center gap-2 text-[13px] border border-[#ff002d21] bg-[#191919] py-1 px-2 rounded-2xl ">
+                    <span className="UP flex items-center gap-2 text-[13px] border border-[#ff002d21] bg-[#ff002d21] dark:bg-[#dadada21] py-1 px-2 rounded-2xl ">
                       <img src="calendar.png" alt="" className="size-4 dark:invert" />
                       2022-2023
                     </span>
@@ -511,7 +511,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="BACK flex flex-col gap-3 items-end justify-center  max-[750px]:flex-row shrink-0">
-                    <span className="UP flex items-center gap-2 text-[13px] border border-[#ff002d21] bg-[#191919] py-1 px-2 rounded-2xl">
+                    <span className="UP flex items-center gap-2 text-[13px] border border-[#ff002d21] bg-[#ff002d21] dark:bg-[#dadada21] py-1 px-2 rounded-2xl">
                       <img src="calendar.png" alt="" className="size-4 dark:invert" />
                       2021-2022
                     </span>
@@ -559,10 +559,10 @@ export default function Home() {
 
 
         {/* CERTIFICATES */}
-        <div ref={certificateRef} className={`5SECTION relative w-full gap-8 rounded-2xl justify-center items-center flex flex-col dark:shadow-[0px_1px_20px_#ffffff38] shadow-[0px_0px_40px_rgba(10,10,10,0.08)] SECTION-PX SECTION-PY bg-white dark:bg-[#000000]`}>
+        <div ref={certificateRef} className={`5SECTION relative w-full gap-8 rounded-2xl justify-center items-center flex flex-col dark:shadow-[0px_1px_20px_#505050] shadow-[0px_0px_40px_rgba(10,10,10,0.08)] SECTION-PX SECTION-PY bg-white dark:bg-[#000000]`}>
 
           <div className="5HEADING flex items-center flex-col gap-3">
-            <div className="border-2 border-[#ff002d21] bg-[#191919] p-1 rounded-xl flex justify-center items-center gap-2 text-sm">
+            <div className="border-2 border-[#ff002d21] bg-[#ff002d21] dark:bg-[#dadada21] p-1 rounded-xl flex justify-center items-center gap-2 text-sm">
               <span><img src="/verified.png" alt="" className="size-6" /></span>
               <span>Verified Credentials</span>
             </div>
@@ -627,10 +627,10 @@ export default function Home() {
 
 
         {/* CONTACT */}
-        <div ref={contactRef} className={`6SECTION relative w-full gap-8 rounded-2xl justify-center items-center flex flex-col dark:shadow-[0px_1px_20px_#ffffff38] shadow-[0px_0px_40px_rgba(10,10,10,0.08)] SECTION-PX SECTION-PY bg-white dark:bg-[#000000]`}>
+        <div ref={contactRef} className={`6SECTION relative w-full gap-8 rounded-2xl justify-center items-center flex flex-col dark:shadow-[0px_1px_20px_#505050] shadow-[0px_0px_40px_rgba(10,10,10,0.08)] SECTION-PX SECTION-PY bg-white dark:bg-[#000000]`}>
 
           <div className="6HEADING flex items-center flex-col gap-3">
-            <div className="border-2 border-[#ff002d21] bg-[#191919] p-1 rounded-xl flex justify-center items-center gap-2 text-sm">
+            <div className="border-2 border-[#ff002d21] bg-[#ff002d21] dark:bg-[#dadada21] p-1 rounded-xl flex justify-center items-center gap-2 text-sm">
               <span><img src="/social-network.png" alt="" className="size-6" /></span>
               <span>Let's Connect</span>
             </div>
