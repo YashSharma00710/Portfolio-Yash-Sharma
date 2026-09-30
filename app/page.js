@@ -75,7 +75,7 @@ export default function Home() {
   const handleCopy = () => {
     let mode = localStorage.getItem("mode")
     navigator.clipboard.writeText("yashsharma3440@gmail.com")
-    if (mode=="dark") {
+    if (mode == "dark") {
       toast.success('Copied to clipboard', {
         position: "top-right",
         autoClose: 500,
@@ -121,8 +121,8 @@ export default function Home() {
           transition={Bounce}
         />
         {/* HOME */}
-        <div ref={homeRef} className={`STARTINGSECTION relative w-full h-157 justify-center items-start flex flex-col 
-          dark:shadow-[0px_1px_20px_#505050] max-[750px]:flex-colgba(255,255,255,0.2)] rounded-2xl shadow-[0px_0px_40px_rgba(10,10,10,0.08)] overflow-hidden mt-[30px] max-[550px]:mt-[10px] max-[950px]:mt-[25px]`}>
+        <div ref={homeRef} className="STARTINGSECTION relative w-full h-[628px] flex flex-col justify-center items-start overflow-hidden mt-[30px] rounded-2xl shadow-[0px_0px_40px_rgba(10,10,10,0.08)] dark:shadow-[0px_1px_20px_#505050] max-[750px]:flex-col max-[950px]:mt-[25px] max-[550px]:mt-[10px]">
+
           <img src="/Main_pic.png" alt="" className="w-full h-full object-cover max-[510px]:object-[80%_20%] pointer-events-none absolute" />
 
           <div className="INFO relative pl-[5%] max-[880px]:pl-[2.5%]  flex flex-col text-white w-[60%] gap-6  max-[510px]:px-1 max-[510px]:w-full">
